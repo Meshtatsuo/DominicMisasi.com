@@ -3,48 +3,62 @@
         <meta charset="utf-8">
         <title>Dominic Misasi - Audio Engineer</title>
         <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.css">
-        
+        <link rel="stylesheet" type="text/css" href="css/primarystyles.css">
+
         <!-- SCRIPT LINKING--------------------------------------------------------------------------------->
         <!-------------------------------------------------------------------------------------------------->
-        <script type="text/javascript" src="js/siteAnim.js"></script>
+     
         <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous">
         </script>
-        <script src="semantic/dist/semantic.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="/node_modules/semantic-ui/dist/semantic.min.js"></script>
+        <script type="text/javascript" src="js/siteAnim.js"></script>
+
+
         <!-------------------------------------------------------------------------------------------------->
         <!-------------------------------------------------------------------------------------------------->
-        
+
     </head>
-    
+
     <body>
-        <header>
-        
-        </header>
-        
-        <nav class="ui menu">
-            <h3 class="header item">Dominic Misasi - Audio Engineer</h3>
-            <a class="item">tab 1</a>
-            <div class="ui dropdown item" id="NavDropdown">Portfolio
-                <i class = "dropdown icon"></i>
-                <div class = "menu">
-                    <a class = "item">Game Audio</a>
-                    <a class = "item">Game Audio</a>
-                    <a class = "item">Game Audio</a>
-                    <a class = "item">Game Audio</a>
-                </div>
-            </div>
-            <a class="item">tab 3</a>
-            <a class="item">tab 4</a>
+        <nav class="ui left vertical menu sidebar visible">
+            <a class="item" href="#">
+                Home
+            </a>
+            <a class="item" href="#">
+                About
+            </a>
+            <a class="item" href="#">
+                Other Thing
+            </a>
         </nav>
-        <section id="videoSplash" class="ui container">
+        
+        <div class="pusher">
+            <!-------------------------------------------------------------------------------------------------->
+            <!----------------------------------ALL SITE CONTENT GOES HERE-------------------------------------->
+            <!-------------------------------------------------------------------------------------------------->
+            <div class = "ui embed" data-source="vimeo" data-id="125292332" data-placeholder="images/tes.jpg">
+                
+                <iframe src="https://player.vimeo.com/video/166216769?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <!--<img class="placeholder" src="images/tes.jpg" />-->
+                
+                <section class="ui center aligned fluid container">
+                    <H1>WELCOME</H1>
+                    <p>Stuff here and such</p>
+                    <button class="ui primary button">View Reel</button>
+                </section>
+                                
+            </div>
             
-            <div class="ui embed" data-source="youtube" data-id="O6Xo21L0ybE" data-icon="video" data-placeholder="/images/bear-waving.jpg"></div>
+          
+            
+        </div>
         
-        </section>
-        
-        
+
+
+
     </body>
 </html>

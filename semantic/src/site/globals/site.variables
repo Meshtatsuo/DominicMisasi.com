@@ -1,3 +1,7 @@
 /*******************************
      User Global Variables
 *******************************/
+
+
+/Container Variable Mods/
+@maxWidth: 100%;
