@@ -1,3 +1,35 @@
-#menuButton{
 
+
+.ui.sidebar.visible ~ .pusher {
+    width: calc(100% - 260px);
+}
+
+
+body{
+    
+    background-color: black;
+}
+
+#videoSection{
+    background-color: black;
+}
+
+#WelcomeOverlay{
+    float:center;
+    color: white; 
+    align-content: center;
+}
+
+#title{
+    padding: 0 5px;
+    margin: 0;
+}
+#subtitle{
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+#welcomeMessage{
+    text-align: left;
 }

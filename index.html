@@ -24,11 +24,7 @@
     </head>
 
     <body>
-        <button class="ui white big launch right attached fixed button" id="menuButton">
-            <i class="content icon"></i>
-            <span class="text">Menu</span>
-        </button>
-        <nav class="ui left vertical menu sidebar overlay" id="navBar">
+        <nav class="ui left vertical menu sidebar visible" id="navBar">
             <a class="item" href="#">
                 Home
             </a>
@@ -46,8 +42,9 @@
         <div class="pusher">
             <!-------------------------------------------------------------------------------------------------->
             <!----------------------------------ALL SITE CONTENT GOES HERE-------------------------------------->
-            <!-------------------------------------------------------------------------------------------------->
-            <div class = "ui embed" data-source="vimeo" data-id="125292332" data-placeholder="images/tes.jpg">
+            <!-------------------------------------------------------------------------------------------------->           
+            
+            <section id="videoSection" class = "ui embed" data-source="vimeo" data-id="125292332" data-placeholder="images/tes.jpg">
                 
                 <iframe src="https://player.vimeo.com/video/166216769?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 <!--<img class="placeholder" src="images/tes.jpg" />-->
@@ -58,7 +55,17 @@
                     <button class="ui primary button">View Reel</button>
                 </section>
                                 
-            </div>
+            </section>
+            
+                        <section class="ui center aligned container" id="WelcomeOverlay">
+                <h1 id="title">Dominic Misasi</h1>
+                <h2 id="subtitle">Sound Designer | Foley Artist | Audio Engineer</h2>
+                <p id="welcomeMessage">Testing</p>
+                <button id="menuButton" class="ui primary button" >
+                    <h4>View My Reel</h4>
+                </button>
+            
+            </section>
             
           
             
