@@ -1,14 +1,19 @@
+body{
+    
+    background-color: black;
+}
 
+/* CLASSES */
 
 .ui.sidebar.visible ~ .pusher {
     width: calc(100% - 260px);
 }
 
-
-body{
-    
+.pusher{
     background-color: black;
 }
+
+/* IDs */
 
 #videoSection{
     background-color: black;
