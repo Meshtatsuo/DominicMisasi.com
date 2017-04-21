@@ -1,8 +1,3 @@
-body{
-    
-    background-color: black;
-}
-
 /* CLASSES */
 
 .ui.sidebar.visible ~ .pusher {
@@ -10,17 +5,66 @@ body{
 }
 
 .pusher{
-    background-color: black;
+    background-color: #eaeaea;
 }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
 
 /* IDs */
 
+#navBar{
+    box-shadow: 0 0 10px #000;
+    background-color: #d2d2da;
+}
+#navBar h2{
+    color: #333333;
+}
+#navBar h4{
+    color: #333333;
+}
+#navBar a{
+    color: #555555;
+}
+#sitenavBar {
+	position:relative;
+    
+}
+
+#externalLinks{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#externalLinks h4{
+	    margin:0;
+    padding: 12px 8px;
+}
+#externalLinks a{
+    margin: 0;
+    padding: 10px;
+}
+
+#menuButton{
+    background-color: #d2d2da;
+    float: left;
+    padding: 5em;
+}
 #videoSection{
     background-color: black;
+    box-shadow: 0 5px 5px #aaa;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 #WelcomeOverlay{
-    float:center;
     color: white; 
     align-content: center;
 }
@@ -37,4 +81,62 @@ body{
 
 #welcomeMessage{
     text-align: left;
+}
+
+#aboutSection {
+    box-shadow: 0 5px 5px #aaa;
+    padding: .2em 10em;
+    margin: 5% 0;
+    background-color: #eaeaea;
+}
+#aboutSection h1{
+    text-align: center;
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+}
+#aboutSection h2{
+    text-align: left;
+}
+#aboutSection p{
+	text-align: left;
+}
+
+#lifeandEducationSection {
+    width: 45%;
+    float:left;
+}
+#soundDesignandGameDevelopmentSection {
+    width: 45%;
+    float:right;
+}
+
+#portfolioSection {
+    
+}
+
+#gameAudioSubSection {
+	
+}
+
+#postProductionSubSection {
+	
+}
+
+#musicSubSection {
+	box-shadow: 0 5px 5px #aaa;
+}
+
+#creditsSection {
+	box-shadow: 0 5px 5px #aaa;
+}
+
+#twitchSection {
+	background-color: #6441a4;
+    box-shadow: 0 5px 5px #aaa;
+}
+
+#twitchSection h1{
+    color: #fff;
+    box-shadow: 0 5px 5px #aaa;
 }

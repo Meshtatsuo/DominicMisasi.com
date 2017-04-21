@@ -25,58 +25,122 @@
 
     <body>
         <nav class="ui left vertical menu sidebar visible" id="navBar">
-            <a class="item" href="#">
-                <h2>Home</h2>
-            </a>
-            <a class="item" href="#">
-                <h2>About</h2>
-            </a>
-            <div class="ui left pointing dropdown link item">    
-                <i class="dropdown icon"></i>
-                <h2>Portfolio</h2>
-                <div class="menu" id="dropdownItems">
-                    <a class="item" href="#">Game Audio</a>
-                    <a class="item" href="#">Post Production</a>
-                    <a class="item" href="#">Music</a>
+            <!-- INTERNAL SITE ANCHORS -->
+            <div id="sitenavBar">
+                <a class="item" href="#home">
+                    <h2>Home</h2>
+                </a>
+                <a class="item" href="#about">
+                    <h2>About</h2>
+                </a>
+                <div class="ui item">    
+                    <a href="#portfolio"><h2>Portfolio <i class="dropdown icon" id="dropdownMenu"></i></h2> </a>
+                    <div class="menu" id="dropdownItems">
+                        <a class="item" href="#gameAudio"><h4>Game Audio</h4></a>
+                        <a class="item" href="postProduction"><h4>Post Production</h4></a>
+                        <a class="item" href="#music"><h4>Music</h4></a>
+                    </div>
                 </div>
+                <a class="item" href="credits">
+                    <h2>Credits</h2>
+                </a>
+                <a class="item" href="twitch">
+                    <h2>Twitch</h2>
+                </a>
+                <a class="item" href="contact">
+                    <h2>Contact</h2>
+                </a>
             </div>
-            <a class="item" href="#">
-                <h2>Credits</h2>
-            </a>
-            <a class="item" href="#">
-                <h2>Twitch</h2>
-            </a>
-            <a class="item" href="#">
-                <h2>Contact</h2>
-            </a>
+            
+            <!-- EXTERNAL WEB LINKS -->
+            <div id="externalLinks">
+                <h4>On the Web</h4>
+                <a class="item" id ="linkedinNav"href="ttps://www.linkedin.com/in/dominic-w-misasi/" target="_blank"><p>Linked In</p></a>
+                <a class="item" id="twitchNav" href="https://twitch.tv/meshtatsuo" target="_blank"><p>Twitch</p></a>
+                <a class="item" id="youtubeNav" href="https://www.youtube.com/channel/UCQ_Fd5Iw8hwjO8lo2UDktug" target="_blank"><p>YouTube</p></a>
+                <a class="item" id="soundcloudNav" href="https://soundcloud.com/mesh_audio/tracks" target="_blank"><p>Soundcloud</p></a>
+                
+                <h4>Hire Me!</h4>
+                <a class="item" href="https://www.fiverr.com" target="_blank"><p>Fiverr</p></a>
+                <a class="item" href="https://www.freelancer.com/u/DominicMisasi.html" target="_blank"><p>Freelancer</p></a>
+                <a class="item" href="https://www.upwork.com/freelancers/~012ffc892a12655694" target="_blank"><p>Upwork</p></a>
+            </div>
         </nav>
-        
+        <a id="home"></a>
         <div class="pusher">
             <!-------------------------------------------------------------------------------------------------->
             <!----------------------------------ALL SITE CONTENT GOES HERE-------------------------------------->
-            <!-------------------------------------------------------------------------------------------------->           
-            
+            <!-------------------------------------------------------------------------------------------------->
             <section id="videoSection" class = "ui embed" data-source="vimeo" data-id="125292332" data-placeholder="images/tes.jpg">
-                
+
                 <iframe src="https://player.vimeo.com/video/166216769?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 <!--<img class="placeholder" src="images/tes.jpg" />-->
                 
-                <section class="ui center aligned fluid container">
-                    <H1>WELCOME</H1>
-                    <p>Stuff here and such</p>
-                    <button class="ui primary button">View Reel</button>
+                <section class="ui center aligned fluid container" id="WelcomeOverlay">
+                    <h1 id="title">Dominic Misasi</h1>
+                    <h2 id="subtitle">Sound Designer | Foley Artist | Audio Engineer</h2>
+                    <p id="welcomeMessage">Testing</p>
+                    <button id="welcomeButton" class="ui primary button" >
+                        <h4>View My Reel</h4>
+                    </button>
                 </section>
-                                
+                                    
             </section>
             
-                        <section class="ui center aligned container" id="WelcomeOverlay">
-                <h1 id="title">Dominic Misasi</h1>
-                <h2 id="subtitle">Sound Designer | Foley Artist | Audio Engineer</h2>
-                <p id="welcomeMessage">Testing</p>
-                <button id="menuButton" class="ui primary button" >
-                    <h4>View My Reel</h4>
-                </button>
+            <section id="aboutSection" class="ui clearfix">
+                <a id="about"></a>
+                <h1>About</h1>
+                <div id="lifeandEducationSection" class="ui very padded segment">
+                    <h2>Life and Education</h2>
+                    <p>   
+                        Growing up in the town of Menomonee Falls, Wisconsin, I first started messing around with sound design by replacing audio files in Frictional Games' Amnesia: The Dark Descent with my friends. After graduating high school, I spent a year studying at the University of Wisconsin Oshkosh location before finding my home across the country in Maine, studying audio engineering at the Husson School of Communications. 
+
+                        During my time at School, I spent three years as President of the Technology Club where I shared my love for game development and E-Sports. Working with our advisor I was able to run workshops on the basics of both the Unity and Unreal game engines, and hold a Starcraft II tournament each semester, bringing together fellow Starcraft fans for a day of competition.
+                    </p>
+                </div>
+                <div id="soundDesignandGameDevelopmentSection" class="ui very padded segment">
+                    <h2>Sound Design and Game Development</h2>
+                    <p>
+                        Outside of school, I continued developing my audio and game development skills. I learned the basics of the Unreal Engine's Blueprint Scripting system, and I utilized middleware such as WWise and FMOD with the Unreal Engine to teach myself the fundamentals of sound implementation and event scripting. Using this knowledge, I reached out to other hobbyist devs to contribute to their projects. I spent a year with a group of devs at Thing in a Box Studios leading the audio team to creating sounds and music for their initial prototype. After my time with Thing in a Box Studios I began working on my own projects. My current project, Euphoria is a 3D puzzle platforming game designed and developed entirely by myself using the Unreal Engine.
+                        <br/>
+                        <br/>
+                    </p>
+                </div>
+            </section>
             
+            <section id="portfolioSection">
+                <a id="portfolio"></a>
+                <h1>Portfolio</h1>
+                <section id="gameAudioSubSection">
+                    <a id="gameAudio"></a>
+                    <h2>Game Audio</h2>
+                    <!-- SECTION DIVIDED INTO MODALS -->
+                </section>
+                <div class="ui divider"></div>
+                <section id="postProductionSubSection">
+                    <a id="postProduction"></a>
+                    <h2>Post Production</h2>
+                </section>
+                <div class="ui divider"></div>
+               <section id="musicSubSection">
+                    <a id="music"></a>
+                   <h2>Music</h2>
+                </section>
+            </section>
+            
+            <section id="creditsSection">
+                <a id="credits"></a>
+                <h1>Credits Section</h1>
+            </section>
+            
+            <section id="twitchSection">
+                <a id="twitch"></a>
+                <h1>Twitch</h1>
+            </section>
+            
+            <section id="contactSection">
+                <a id="contact"></a>
+                <h1>Contact</h1>
             </section>
             
           
