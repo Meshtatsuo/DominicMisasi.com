@@ -116,7 +116,7 @@
 }
 
 #gameAudioSubSection {
-	
+	align-content: center;
 }
 
 #postProductionSubSection {
@@ -125,6 +125,22 @@
 
 #musicSubSection {
 	box-shadow: 0 5px 5px #aaa;
+}
+
+#moduleLauncher{
+    width: 25em;
+    height: 20em;
+    background-color: #fff;
+    margin: 1em;
+    float: left;
+    box-shadow: 0 5px 5px #aaa;
+}
+#moduleLauncherTitle{
+    margin: 0;
+    padding: .5em;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 5px #aaa;
 }
 
 #creditsSection {
