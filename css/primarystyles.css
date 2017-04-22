@@ -149,10 +149,20 @@
 
 #twitchSection {
 	background-color: #6441a4;
+    align-content: center;
     box-shadow: 0 5px 5px #aaa;
 }
 
 #twitchSection h1{
     color: #fff;
-    box-shadow: 0 5px 5px #aaa;
+}
+#twitchLogo{
+    width: 15%;
+    margin: 0;
+}
+
+#twitchVideoEmbed{
+    margin:0;
+    padding: 0;
+    text-align: center;
 }
