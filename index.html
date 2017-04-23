@@ -37,17 +37,17 @@
                     <a href="#portfolio"><h2>Portfolio <i class="dropdown icon" id="dropdownMenu"></i></h2> </a>
                     <div class="menu" id="dropdownItems">
                         <a class="item" href="#gameAudio"><h4>Game Audio</h4></a>
-                        <a class="item" href="postProduction"><h4>Post Production</h4></a>
+                        <a class="item" href="#postProduction"><h4>Post Production</h4></a>
                         <a class="item" href="#music"><h4>Music</h4></a>
                     </div>
                 </div>
-                <a class="item" href="credits">
+                <a class="item" href="#credits">
                     <h2>Credits</h2>
                 </a>
-                <a class="item" href="twitch">
+                <a class="item" href="#twitch">
                     <h2>Twitch</h2>
                 </a>
-                <a class="item" href="contact">
+                <a class="item" href="#contact">
                     <h2>Contact</h2>
                 </a>
             </div>
@@ -202,23 +202,56 @@
             
             <section id="twitchSection" class="clearfix">
                 <a id="twitch"></a>
-                <img src="images/CompanyLogos/Twitch_White_RGB.png" id="twitchLogo" class="clearfix" alt="twitchLogo" />
+                <h1><img src="images/CompanyLogos/Twitch_White_RGB.png" id="twitchLogo" class="clearfix" alt="twitchLogo" /></h1>
                 <div id="twitchVideoEmbed" class="center aligned segment clearfix">
                     <iframe
                         src="http://player.twitch.tv/?channel=meshtatsuo&muted=true"
                         height="47%"
-                        width="50%"
+                        width="100%"
                         frameborder="none"
                         scrolling="none"
                         allowfullscreen="true">
                         Twitch Embeded Player
                     </iframe>
                 </div>
+                <div class="ui segment" id="streamingInformation">
+                    <h2>Live Streams</h2>
+                    <p>I stream etc etc here's a schedule bruh:</p>
+                    <h2>Twitch Sound Designers!</h2>
+                    <p>I manage the sound designer's of twitch community!</p>
+                </div>
             </section>
             
             <section id="contactSection">
                 <a id="contact"></a>
                 <h1>Contact</h1>
+                <form class="ui form clearfix" id="contactForm">
+                    <div class="two fields">
+                    <div class="field">
+                        <label>First Name</label>
+                        <input type="text" name="first-name" placeholder="First Name">
+                    </div>
+                    <div class="field">
+                        <label>Last Name</label>
+                        <input type="text" name="last-name" placeholder="Last Name">
+                    </div>
+                    </div>
+                    <div class="two fields">
+                    <div class="field">
+                        <label>Email Address</label>
+                        <input type="text" name="email-address" placeholder="Email Address">
+                    </div>
+                    <div class="field">
+                            <label>Phone Number (Optional)</label>
+                            <input type="text" name="Phone Number" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Text Area</label>
+                        <textarea placeholder="Your Message Here"></textarea>
+                    </div>
+                    <button class="ui button" type="submit">Submit</button>
+                </form>
             </section>
             
           

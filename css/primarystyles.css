@@ -111,20 +111,29 @@
     float:right;
 }
 
-#portfolioSection {
-    
+#portfolioSection h1{
+        text-align: center;
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
 }
 
 #gameAudioSubSection {
 	align-content: center;
 }
+#gameAudioSubSection h2{
+    padding-left: .5em;
+}
 
-#postProductionSubSection {
-	
+#postProductionSubSection h2{
+	padding-left: .5em;
 }
 
 #musicSubSection {
 	box-shadow: 0 5px 5px #aaa;
+}
+#musicSubSection h2{
+    padding-left: .5em;
 }
 
 #moduleLauncher{
@@ -146,23 +155,53 @@
 #creditsSection {
 	box-shadow: 0 5px 5px #aaa;
 }
+#creditsSection h1{
+            text-align: center;
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+}
 
 #twitchSection {
 	background-color: #6441a4;
-    align-content: center;
     box-shadow: 0 5px 5px #aaa;
 }
 
 #twitchSection h1{
     color: #fff;
+    text-align: center;
+    margin:0;
+    padding:0;
 }
 #twitchLogo{
-    width: 15%;
-    margin: 0;
+    margin: 10px 0 0 0;
+    text-align: center;
 }
 
 #twitchVideoEmbed{
-    margin:0;
-    padding: 0;
-    text-align: center;
+    margin:0 0 5px 0;
+    padding: 10px 0 10px 10px;
+    text-align: left;
+    width: 50%;
+    float:left;
+}
+#streamingInformation{
+    margin:10px 0 0 10px;
+    padding: 10px;
+    text-align: left;
+    width: 45%;
+    float:left;
+    background-color: #6441a4;
+}
+#streamingInformation h2{
+    color: #fff;
+}
+#streamingInformation p{
+    color: #fff;
+}
+
+#contactForm{
+    margin: 10px;
+    padding: 5px;
+    width:40%;
 }
