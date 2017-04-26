@@ -22,3 +22,90 @@ $(function() {
   });
 });
 
+$(function(){
+    $('.button.closeModal').click(function(){
+        
+            $('.ui.modal')
+                .modal({
+                blurring: true
+            })
+                .modal('hide');
+    });
+});
+
+$(function(){
+    $('.button.euphoria').click(function(){
+        
+            $('#MODEuphoria')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.beyondSkyrim').click(function(){
+        
+            $('#MODBeyondSkyrim')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.ezSystems').click(function(){
+        
+            $('#MODeZSystems')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.exMachina').click(function(){
+        
+            $('#MODExMachina')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.massEffect').click(function(){
+        
+            $('#MODmassEffect')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.ipadAir').click(function(){
+        
+            $('#MODipadAir')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.indemnity').click(function(){
+        
+            $('#MODindemnity q')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});

@@ -111,11 +111,20 @@
     float:right;
 }
 
+#moduleButtons {
+	margin:1em;
+    padding:0;
+    vertical-align: center;
+}
+
 #portfolioSection h1{
-        text-align: center;
+    text-align: center;
     font-size: 42px;
     margin: 0;
     padding: 0;
+}
+#portfolioSection h2{
+	text-align: center;
 }
 
 #gameAudioSubSection {
@@ -138,25 +147,47 @@
 
 #moduleLauncher{
     width: 25em;
-    height: 20em;
     background-color: #fff;
-    margin: 1em;
+    margin: 0;
     float: left;
     box-shadow: 0 5px 5px #aaa;
 }
 #moduleLauncherTitle{
     margin: 0;
-    padding: .5em;
+    padding: 0 3px;
     background-color: #fff;
     text-align: center;
-    box-shadow: 0 5px 5px #aaa;
+    width:100%;
+    float:left;
+}
+
+#moduleLauncher img{
+    margin: 0;
+    padding: 0;
+}
+
+.modal{
+    margin: 0;
+    padding: 15px;
+}
+.modal iframe{
+    margin: 0;
+    padding: 0;
+}
+#modalDescription{
+    text-align: left;
+    margin: 0;
+    padding:0;
+}
+#modalButton{
+    vertical-align: center;
 }
 
 #creditsSection {
 	box-shadow: 0 5px 5px #aaa;
 }
 #creditsSection h1{
-            text-align: center;
+    text-align: center;
     font-size: 42px;
     margin: 0;
     padding: 0;
@@ -204,4 +235,7 @@
     margin: 10px;
     padding: 5px;
     width:40%;
+}
+#contactSection h1{
+    text-align: center;
 }
