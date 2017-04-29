@@ -1,9 +1,10 @@
 $(document).ready(function(){
-   if ($(window).width() < 720) {
+   if ($(window).width() < 1280) {
     $('nav').removeClass('visible');
     $('#menuButton').addClass('visible');   
 } else {
 }
+    $('.ui.embed').embed();
 });
 
 
