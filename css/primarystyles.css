@@ -5,7 +5,7 @@
 }
 
 .pusher{
-    background-color: #eaeaea;
+    background-image: url(../images/bodyTexture.png);
 }
 
 .clearfix:after {
@@ -20,16 +20,16 @@
 
 #navBar{
     box-shadow: 0 0 10px #000;
-    background-color: #d2d2da;
+    background-image:url(../images/navBarTexture_361x370.png) ;
 }
 #navBar h2{
-    color: #333333;
+    color: #d2d2da;
 }
 #navBar h4{
-    color: #333333;
+    color: #d2d2da;
 }
 #navBar a{
-    color: #555555;
+    color: #d2d2da;
 }
 #sitenavBar {
 	position:relative;
@@ -88,7 +88,7 @@
     box-shadow: 0 5px 5px #aaa;
     padding: .2em 10em;
     margin: 5% 0;
-    background-color: #eaeaea;
+    background-image: url(../images/bodyTexture.png);
 }
 #aboutSection h1{
     text-align: center;
