@@ -103,7 +103,18 @@ $(function(){
 $(function(){
     $('.button.indemnity').click(function(){
         
-            $('#MODindemnity q')
+            $('#MODindemnity')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
+
+$(function(){
+    $('.button.projectContingency').click(function(){
+        
+            $('#MODProjContingency')
                 .modal({
                 blurring: true
             })

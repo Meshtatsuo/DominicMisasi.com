@@ -46,7 +46,7 @@
     width: 100%;
 }
 #externalLinks h4{
-	    margin:0;
+    margin:0;
     padding: 12px 8px;
 }
 #externalLinks a{
@@ -61,7 +61,6 @@
 }
 #videoSection{
     background-color: black;
-    box-shadow: 0 5px 5px #aaa;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -88,7 +87,6 @@
 }
 
 #aboutSection {
-    box-shadow: 0 5px 5px #aaa;
     padding: .2em 10em;
     margin: 5% 0;
     background-image: url(../images/bodyTexture.png);
@@ -101,18 +99,26 @@
 }
 #aboutSection h2{
     text-align: left;
+    margin: 0;
+    padding: 0
 }
 #aboutSection p{
 	text-align: left;
+    margin: 0;
+    padding: 5px;
 }
 
 #lifeandEducationSection {
     width: 45%;
     float:left;
+    margin: 0;
+    padding: 5px;
 }
 #soundDesignandGameDevelopmentSection {
     width: 45%;
     float:right;
+    margin: 0;
+    padding: 5px;
 }
 
 #moduleButtons {
@@ -121,39 +127,57 @@
     vertical-align: center;
 }
 
+#portfolioSection {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
 #portfolioSection h1{
     text-align: center;
-    vertical-align: CENTER;
     font-size: 42px;
     margin: 0;
     padding: 0;
 }
 #portfolioSection h2{
 	text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #gameAudioSubSection {
 	align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 #gameAudioSubSection h2{
     padding-left: .5em;
+    margin: 0;
+    padding: 0;
 }
 
 #postProductionSubSection h2{
 	padding-left: .5em;
+    margin: 0;
+    padding: 0;
 }
 
 #musicSubSection {
-	box-shadow: 0 5px 5px #aaa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 #musicSubSection h2{
-    padding-left: .5em;
+    padding: 0;
+    margin: 0;
 }
 
 #moduleLauncher{
     width: 25em;
     background-color: #fff;
     margin: 0;
+    padding: 0;
     float: left;
     box-shadow: 0 5px 5px #aaa;
 }
@@ -177,7 +201,7 @@
 }
 .modal iframe{
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 #modalDescription{
     text-align: left;
@@ -189,7 +213,7 @@
 }
 
 #creditsSection {
-	box-shadow: 0 5px 5px #aaa;
+
 }
 #creditsSection h1{
     text-align: center;
@@ -199,9 +223,10 @@
 }
 
 #twitchSection {
+    margin: 0;
     padding: 0 25px;
 	background-color: #6441a4;
-    box-shadow: 0 5px 5px #aaa;
+
 }
 
 #twitchSection h1{

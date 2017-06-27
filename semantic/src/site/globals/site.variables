@@ -5,3 +5,15 @@
 
 /Container Variable Mods/
 @maxWidth: 100%;
+
+/*-------------------
+     Fonts
+--------------------*/
+
+@headerFont        : 'Bubbler One', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Bubbler One', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@fontSmoothing     : antialiased;
+
+@importGoogleFonts : true;
+@googleFontName    : 'Bubbler One';
+@googleFontSizes   : '400,700,400italic,700italic';
