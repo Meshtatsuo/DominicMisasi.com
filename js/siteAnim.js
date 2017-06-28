@@ -121,3 +121,14 @@ $(function(){
                 .modal('show');
     });
 });
+
+$(function(){
+    $('.button.alien').click(function(){
+        
+            $('#MODAlien')
+                .modal({
+                blurring: true
+            })
+                .modal('show');
+    });
+});
