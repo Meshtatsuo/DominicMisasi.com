@@ -453,11 +453,8 @@
                 </div>
                 <div class="ui segment" id="streamingInformation">
                     <h2>Live Streams</h2>
-                    <p>I often stream myself working on personal projects over on Twitch.tv! I work on varoius things from sound replacement projects to game and creature sound design work. I attempt to keep the following schedule:</p>
-                    <p > <b>Mon:</b> 6 pm - 8 pm  <br/>
-                        <b>Tues:</b> 7:30 npm - 9:30 pm <br/>
-                        <b> Wed:</b> 6 pm - 8 pm <br/>
-                        <b>Thurs:</b> 7:30 pm - 9:30 pm<br/></p>
+                    <p>I often stream myself working on personal projects over on Twitch.tv! I work on varoius things from sound replacement projects to game and creature sound design work. Follow me on Twitch and on Twitter for schedule updates!</p>
+
                     <h2>Twitch Sound Designers!</h2>
                     <p>In addition to streaming my work on Twitch, I also am building and managing a community for fellow sound designers and foley artists on the site! We have bi-weekly sound design challenges and discuss various audio related topics on our discord server! If you're interested in learning about the craft, or you're a fellow sound engineer interested in the idea of streaming, feel free to get in contact with me!</p>
                     <br/>
@@ -467,43 +464,51 @@
                 </div>
             </section>
             
-            <section class="clearfix" id="contactSection">
+            <section class="clearfix contactForm" id="contactSection">
                 <a id="contact"></a>
                 <h1>Contact</h1>
                 <form class="ui form clearfix" id="contactForm">
                     <h3>Contact Form</h3>
                     <div class="one field">
-                    <div class="field">
+                    <div class="disabled field">
                         <label>Full Name</label>
-                        <input type="text" name="full-name" placeholder="Full Name">
+                        <input type="text" name="fullName" placeholder="Full Name">
                     </div>
                     </div>
                     <div class="two fields">
-                    <div class="field">
+                    <div class="disabled field">
                         <label>Email Address</label>
-                        <input type="text" name="email-address" placeholder="Email Address">
+                        <input type="text" name="emailAddress" placeholder="Email Address">
                     </div>
-                    <div class="field">
+                    <div class="disabled field">
                             <label>Phone Number (Optional)</label>
-                            <input type="text" name="Phone Number" placeholder="Phone Number">
+                            <input type="text" name="phoneNumber" placeholder="Phone Number">
                         </div>
                     </div>
-                    <div class="field">
+                    <div class="disabled field">
                         <label>Text Area</label>
-                        <textarea placeholder="Your Message Here"></textarea>
+                        <textarea type="text" name="message" placeholder="Your Message Here"></textarea>
                     </div>
                     <button class="ui button" type="submit">Submit</button>
+                    <div class="ui error message"></div>
                 </form>
                 <div class="ui segment clearfix" id="contactInformation">
                     <h3>Questions?</h3>
                     <p>If you have any questions or would like to discuss business oppurtunities, feel free to check me out on the freelancing sites I have linked on the sidebar or shoot me an email! I make an effort to respond to emails within 24 hours.</p>
                     <p>Email: info@DominicMisasi.com</p>
                     <p>Phone: (262) 293-6006</p>
+                    <br/>
+                    <br/>
+                    <p id="formBroken">The web form is currently down! Please email me at info@DominicMisasi.com if you would like to get in touch!</p>
+                    <br/>
+                    <br/>
                 </div>
-            </section>
+            <//section>
             
-          
             
+            <script src="js/contact.js"></script>
+            
+
         </div>
     </body>
 </html>

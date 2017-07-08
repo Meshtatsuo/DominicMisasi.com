@@ -273,6 +273,10 @@
     
 }
 
+#formBroken{
+    color: red;
+}
+
 #contactInformation {
 	margin:50px;
     padding:10px;
